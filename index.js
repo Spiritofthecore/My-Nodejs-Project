@@ -19,16 +19,23 @@
 //     response.render("testPage");
 // });
 //
-var http = require('http');
+var express = require("express");
 
-var server = http.createServer(function(request, response) {
+var app = express();
 
-    response.writeHead(200, {"Content-Type": "text/plain"});
+app.use(express.static("public"));
+
+app.set("view engine", "ejs");
+app.set("views", "./views");
+
+app.listen(3000);
+
+app.get("/", function(request, response)  {
+
     response.render("homePage");
-
 });
 
-var port = process.env.PORT || 1337;
-server.listen(port);
+app.get("/test", function(request, response)  {
 
-console.log("Server running at http://localhost:%d", port);
+    response.render("testPage");
+});
