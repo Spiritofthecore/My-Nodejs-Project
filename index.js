@@ -8,10 +8,10 @@ var app = express();
 //app.use(express.static("hinh_nhom.jpg"))
 
 //app.set("view engine", "ejs")
-//app.set("views", "./members/")
+app.set("views", "./members/1612039")
 
-app.get('./members/1612039/demo_web.html', function(req, res) {
-  res.send('./members/1612039/demo_web.html')
+app.get('./members/1612039', function(req, res) {
+  res.sendFile('/demo_web.html')
 })
 
 var server = http.createServer(function(request, response) {
