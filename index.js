@@ -22,11 +22,11 @@ app.get('/1612065', function(req, res) {
 })
 
 app.get('/hinhhoaibao', function(req, res) {
-  res.sendFile(__dirname + '/members/1612039/hinhhoaibao.jpg')
+  res.sendFile(__dirname + '/members/1612039/Images/hinhhoaibao.jpg')
 })
 
 app.get('/hinhhoangcuong', function(req, res) {
-  res.sendFile(__dirname + '/members/1612039/hinhhoangcuong.jpg')
+  res.sendFile(__dirname + '/members/1612039/images/hinhhoangcuong.jpg')
 })
 
 app.get('/hinhnhom', function(req, res) {
