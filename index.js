@@ -34,7 +34,7 @@ app.get('/hinhhoangcuong', function(req, res) {
 })
 
 app.get('/hinhvanchau', function(req, res) {
-  res.sendFile(__dirname + '/members/1612065/images/hinhvanchau.jpg')
+  res.sendFile(__dirname + '/members/1612048/images/hinhvanchau.jpg')
 })
 
 app.get('/hinhnhom', function(req, res) {
