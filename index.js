@@ -20,3 +20,7 @@ app.get('/', function(req, res) {
 app.get('/1612065', function(req, res) {
   res.sendFile(__dirname + '/members/1612065/1612065.html')
 })
+
+app.get('/hinhnhom', function(req, res) {
+  res.sendFile(__dirname + '/hinhnhom.jpg')
+})
