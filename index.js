@@ -26,7 +26,7 @@ app.get('/hinhhoaibao', function(req, res) {
 })
 
 app.get('/hinhhoangcuong', function(req, res) {
-  res.sendFile(__dirname + '/members/1612039/images/hinhhoangcuong.jpg')
+  res.sendFile(__dirname + '/members/1612065/images/hinhhoangcuong.jpg')
 })
 
 app.get('/hinhnhom', function(req, res) {
