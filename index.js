@@ -13,8 +13,8 @@ app.get('/1612039', function(req, res) {
   res.sendFile(__dirname + '/members/1612039/1612039.html')
 })
 
-app.get('/', function(req, res) {
-  res.sendFile(__dirname + '/default.html')
+app.get('/1612048', function(req, res) {
+  res.sendFile(__dirname + '/members/1612048/1612048.html')
 })
 
 app.get('/1612065', function(req, res) {
@@ -23,6 +23,9 @@ app.get('/1612065', function(req, res) {
 
 app.get('/hinhhoaibao', function(req, res) {
   res.sendFile(__dirname + '/members/1612039/Images/hinhhoaibao.jpg')
+  
+app.get('/chau', function(req, res) {
+  res.sendFile(__dirname + '/members/1612048/Images/chau.jpg')
 })
 
 app.get('/hinhhoangcuong', function(req, res) {
