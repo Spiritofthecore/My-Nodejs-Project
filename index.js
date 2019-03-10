@@ -21,6 +21,10 @@ app.get('/1612065', function(req, res) {
   res.sendFile(__dirname + '/members/1612065/1612065.html')
 })
 
+app.get('/1612048', function(req, res) {
+  res.sendFile(__dirname + '/members/1612048/1612048.html')
+})
+
 app.get('/hinhhoaibao', function(req, res) {
   res.sendFile(__dirname + '/members/1612039/Images/hinhhoaibao.jpg')
   
@@ -30,6 +34,10 @@ app.get('/chau', function(req, res) {
 
 app.get('/hinhhoangcuong', function(req, res) {
   res.sendFile(__dirname + '/members/1612065/images/hinhhoangcuong.jpg')
+})
+
+app.get('/hinhvanchau', function(req, res) {
+  res.sendFile(__dirname + '/members/1612048/images/hinhvanchau.jpg')
 })
 
 app.get('/hinhnhom', function(req, res) {
