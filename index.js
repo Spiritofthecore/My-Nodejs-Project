@@ -43,3 +43,4 @@ app.get('/hinhvanchau', function(req, res) {
 app.get('/hinhnhom', function(req, res) {
   res.sendFile(__dirname + '/hinhnhom.jpg')
 })
+app.use('/CSS', express.static(__dirname + '/CSS'));
