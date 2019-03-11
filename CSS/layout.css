@@ -1,6 +1,8 @@
-h2 {
-  font-weight: bold;
-  font-style: italic;
+body {
+  background-image: url("background.jpg");
+  background-repeat: repeat-x;
+  color: tomato;
+  text-align: center;
 }
 
 
