@@ -27,7 +27,7 @@ app.get('/1612048', function(req, res) {
 
 app.get('/hinhhoaibao', function(req, res) {
   res.sendFile(__dirname + '/members/1612039/Images/hinhhoaibao.jpg')
-  
+
 app.get('/chau', function(req, res) {
   res.sendFile(__dirname + '/members/1612048/Images/chau.jpg')
 })
@@ -44,4 +44,3 @@ app.get('/hinhnhom', function(req, res) {
   res.sendFile(__dirname + '/hinhnhom.jpg')
 })
 app.use('/CSS', express.static(__dirname + '/CSS'));
-app.use('/CSS', express.static(_dirname + '/CSS'));
