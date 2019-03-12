@@ -3,4 +3,5 @@ body {
   background-repeat: repeat-x;
   color: tomato;
   text-align: center;
+  background-size: cover;
 }
